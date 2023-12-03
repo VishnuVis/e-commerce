@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+.carousel-item img{
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+    height: 90vh;
+    overflow: hidden;
+}
+
+html{
+    font-family: 14px;
+}
+
+body{
+    font-family:'noto sans', sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+.card-image-top{
+    width: 300px;
+    height: 300px;
+    padding: 50px;   
+}
+.old_price {
+    font-weight:bold;
+    color: red;
+}
+
+.new_price {
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding:2px;
+    border-radius: 5px;
+}
+
+.pic-box{
+    position: relative;
+}
+
+.hot{
+    background-color: orange;
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    right: 20px;
+}
